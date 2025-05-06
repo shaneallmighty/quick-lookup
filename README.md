@@ -41,7 +41,7 @@ The application includes automated tests using Playwright to ensure functionalit
 ## Setup and Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shaneallmighty/quick-lookup.git
+   git clone https://github.com/shaneocallaghandev/quick-lookup.git
 
    cd quick-lookup
    npm install
