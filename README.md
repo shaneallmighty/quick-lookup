@@ -29,6 +29,7 @@ The application includes automated tests using Playwright to ensure functionalit
 - Summary calculation.
 
 ## Future Testing improvements
+- Improve locators
 - Edge cases (e.g., missing inputs, invalid data).
 - Accessibility and layout.
 

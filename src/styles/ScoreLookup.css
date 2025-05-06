@@ -37,22 +37,22 @@
     font-size: 14px;
   }
   
-/* Radio group */
-.radio-group {
-  display: flex; /* Use Flexbox for horizontal alignment */
-  align-items: center; /* Vertically align items */
-  gap: 10px; /* Add consistent spacing between radio button groups */
-  margin-bottom: 15px;
-}
+  /* Radio group */
+  .radio-group {
+    display: flex; /* Use Flexbox for horizontal alignment */
+    align-items: center; /* Vertically align items */
+    gap: 10px; /* Add consistent spacing between radio button groups */
+    margin-bottom: 15px;
+  }
 
-.radio-group label {
-  margin: 0; /* Remove extra margins */
-  font-weight: normal; /* Keep label font weight normal */
-}
+  .radio-group label {
+    margin: 0; /* Remove extra margins */
+    font-weight: normal; /* Keep label font weight normal */
+  }
 
-.radio-group input[type="radio"] {
-  margin: 0 -20px 0 0; /* Reduce space between the radio button and its label */
-}
+  .radio-group input[type="radio"] {
+    margin: 0 -20px 0 0; /* Reduce space between the radio button and its label */
+  }
 
   /* Submit button */
   .score-lookup button {
