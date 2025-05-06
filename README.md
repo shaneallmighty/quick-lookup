@@ -13,7 +13,7 @@ The **Quick Lookup Application** is a React-based tool designed to help users an
 - **React**: For building the user interface.
 - **TypeScript**: For type safety and better code maintainability.
 - **Playwright**: For automated end-to-end testing.
-- **CSS**: For styling the application, including the use of the color `#7bbcd9` for a consistent theme.
+- **CSS**: For styling the application
 
 ## How to Use
 1. **Select a Competency**: Choose a competency from the dropdown menu.
