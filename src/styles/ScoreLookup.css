@@ -1,0 +1,85 @@
+/* Center the component on the screen */
+.score-lookup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* Light background for contrast */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form */
+  .score-lookup form {
+    background-color: #ffffff;
+    border: 2px solid #7bbcd9; /* Add the requested color */
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Labels and inputs */
+  .score-lookup label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .score-lookup select,
+  .score-lookup input[type="radio"] {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+/* Radio group */
+.radio-group {
+  display: flex; /* Use Flexbox for horizontal alignment */
+  align-items: center; /* Vertically align items */
+  gap: 10px; /* Add consistent spacing between radio button groups */
+  margin-bottom: 15px;
+}
+
+.radio-group label {
+  margin: 0; /* Remove extra margins */
+  font-weight: normal; /* Keep label font weight normal */
+}
+
+.radio-group input[type="radio"] {
+  margin: 0 -20px 0 0; /* Reduce space between the radio button and its label */
+}
+
+  /* Submit button */
+  .score-lookup button {
+    background-color: #7bbcd9; /* Use the requested color */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .score-lookup button:hover {
+    background-color: #5aa4c0; /* Slightly darker shade for hover */
+  }
+  
+  /* Output div */
+  .output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e6f7ff; /* Light blue background for output */
+    border: 1px solid #7bbcd9;
+    border-radius: 4px;
+    width: 400px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+  }

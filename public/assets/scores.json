@@ -1,0 +1,17 @@
+[
+    {
+      "Participant": "Vera Voorbeeld",
+      "Total": 4.8,
+      "Enthousiasm": 4.8,
+      "MBOLevel": "B",
+      "Teamwork": 3.7
+    },
+    {
+      "Participant": "James Peterson",
+      "Total": null,
+      "Enthousiasm": 2.4,
+      "MBOLevel": "C",
+      "Teamwork": 3.2
+    }
+  ]
+  
